@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background: #FAF9F6;
+}
+header{
+    background: #bebfad;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    grid-area: header;
+}
+.GridContainer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header header header" 
+    ". B1 . B2 ."
+    ". B3 . B4 .";
+    row-gap: 40px;
+}
+.block{
+    background-color: #f1f2dc;
+    padding: 20px;
+    text-align: center;
+    height: 1083px;
+    width:777px;
+}
+#B1{
+    grid-area: B1;
+}
+#B2{
+    grid-area: B2;
+}
+#B3{
+    grid-area: B3;
+}
+#B4{
+    grid-area: B4;
+}
