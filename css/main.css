@@ -1,0 +1,29 @@
+body{
+    background: lime;
+    margin: 0
+}
+html, body{
+    height: 150%
+}
+.block{
+    height: 400px;
+    background: #FAF9F6;
+    margin: 0;
+    width: 100%;
+}
+.one{
+ position: absolute;
+ top: 20%;   
+}
+.two{
+    position: absolute;
+    top: 80%;
+}
+.three{
+    position: absolute;
+    top: 140%;
+}
+.four{
+    position: absolute;
+    top: 200%;
+}
