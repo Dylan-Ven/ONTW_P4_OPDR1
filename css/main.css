@@ -1,5 +1,4 @@
 body{
-    background: lime;
     margin: 0
 }
 html, body{
@@ -13,7 +12,8 @@ html, body{
 }
 .one{
  position: absolute;
- top: 20%;   
+ top: 20%;
+ background: #589CC8;   
 }
 .two{
     position: absolute;
